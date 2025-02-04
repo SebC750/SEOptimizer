@@ -2,10 +2,17 @@ import './assets/main.css'
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import Menu from './pages/Menu'
+import Login from './pages/Login'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/Menu" element={<Menu />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 )
