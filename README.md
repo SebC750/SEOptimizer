@@ -9,7 +9,3 @@ in the cloud and bring it over to other computers whenever I need to (Or keep in
 ## Features
 - FFMpeg: A file conversion program which enables us to perform edits and conversion of various files types. 
 - PyTest: A unit testing framework for running tests on file conversion functions to ensure that everything works as intended.
-
-## Installation Instructions
-1. Navigate to the executables folder in this repository and select the file for your operating system (.exe for Windows, .dmg for MacOS, .appImage for Ubuntu Linux).
-2. Install it and then click on it to start the app. A terminal showing the menu should open automatically.
